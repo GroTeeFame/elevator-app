@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/elevator-app/static/css/main.20fe4b60.css",
+    "main.js": "/elevator-app/static/js/main.ac4a32a7.js",
+    "index.html": "/elevator-app/index.html",
+    "main.20fe4b60.css.map": "/elevator-app/static/css/main.20fe4b60.css.map",
+    "main.ac4a32a7.js.map": "/elevator-app/static/js/main.ac4a32a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20fe4b60.css",
+    "static/js/main.ac4a32a7.js"
+  ]
+}
