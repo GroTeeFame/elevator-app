@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Buttonplate } from '../buttonplate/Buttonplate';
-import { Elevator } from '../../elevator/Elevator';
+import { Elevator } from '../elevator/Elevator';
 
 export const Logic = () => {
 
