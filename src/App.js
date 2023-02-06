@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Logic } from './components/logic/Logic';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div style={{
+      margin: "20px 50px",
+    }}>
+      <h3>H<del>ELL</del>O</h3>
+      <h4 style={{
+        margin: "0 50px",
+      }}
+      ><sup>wel</sup><ins>come</ins> to</h4>
+      <h2 style={{
+        margin: "0 15px",
+      }}
+      >El<mark>eve</mark><sub>TOR</sub> <small><em>simula</em></small>KR </h2>
     </div>
+      <Logic/>
+    </>
   );
 }
 
