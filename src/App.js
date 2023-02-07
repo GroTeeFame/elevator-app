@@ -14,7 +14,7 @@ function App() {
       <h2 style={{
         margin: "0 15px",
       }}
-      >El<mark>eve</mark><sub>TOR</sub> <small><em>simula</em></small>KR </h2>
+      >El<mark>eva</mark><sub>TOR</sub> <small><em>simula</em></small>KR </h2>
     </div>
       <Logic/>
     </>
