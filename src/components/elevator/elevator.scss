@@ -2,6 +2,40 @@ $red: #F04F78;
 $green: #0EAF9B;
 
 .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 660px) {
+	.wrapper {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 520px) {
+	.wrapper {
+		flex-direction: column;
+	}
+	.elevator-wrapper {
+		svg {
+			width: 400px;
+			height: 400px;
+		}
+	}
+}
+@media screen and (max-width: 380px) {
+	.wrapper {
+		flex-direction: column;
+	}
+	.elevator-wrapper {
+		svg {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
+
+.elevator-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +48,9 @@ $green: #0EAF9B;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body {
+	background-color: rgb(243, 247, 244);
 }
 
 /* ANIMATIONS */

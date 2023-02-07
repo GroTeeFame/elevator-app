@@ -26,6 +26,15 @@
             align-items: center;
             cursor: pointer;
         }
+        .button-current-floor {
+            border: 3px solid #4CAF50;
+        }
+        .button-up {
+            border: 3px solid #0057b7;
+        }
+        .button-down {
+            border: 3px solid #ffd700;
+        }
         .floor-counter {
             width: 30px;
             height: 20px;
@@ -37,6 +46,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 660px) {
+        .buttonplate {
+            flex-direction: row-reverse;
+            width: 280px;
+            height: 60px;
         }
     }
 }

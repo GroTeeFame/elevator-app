@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Buttonplate } from '../buttonplate/Buttonplate';
 import { Elevator } from '../elevator/Elevator';
 
+import "../elevator/elevator.scss";
+
 export const Logic = () => {
 
     const [moveDirection, setMoveDirection] = useState(0);
@@ -92,7 +94,6 @@ export const Logic = () => {
     }
 
     const executOperation = async () => { // 3.0
-        console.log('%c executeOperation', 'color: pink; font-size: 20px;');
         if (executionListUp.length !== 0 || executionListDown.length !== 0){
 
             if (moveDirection == 0){
@@ -129,16 +130,17 @@ export const Logic = () => {
     }
 
 
-    console.log('%c Render', 'color: red; font-size: 22px;');
+    // console.log('%c Render', 'color: red; font-size: 22px;');
     return (
         <>
-            <div style={{
+            {/* <div style={{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center'
-            }}>
+            }}> */}
+            <div className="wrapper">
                 <Elevator currentFloor={currentFloor} moveDirection={moveDirection} executionListUp={executionListUp} executionListDown={executionListDown} door={door}/>
-                <Buttonplate addOperation={addOperation} currentFloor={currentFloor}/>
+                <Buttonplate addOperation={addOperation} currentFloor={currentFloor} executionListUp={executionListUp} executionListDown={executionListDown}/>
             </div>
         </>
     )

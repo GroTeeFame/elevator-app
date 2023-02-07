@@ -5,7 +5,7 @@ export const Elevator = ({currentFloor, door}) => {
 
     return (
 
-    <div className="wrapper">
+    <div className="elevator-wrapper">
       <svg
         width="512"
         height="512"

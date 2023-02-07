@@ -1,4 +1,3 @@
-import './App.scss';
 import { Logic } from './components/logic/Logic';
 
 function App() {
